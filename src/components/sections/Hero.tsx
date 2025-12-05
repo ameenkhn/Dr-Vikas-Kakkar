@@ -2,8 +2,6 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Calendar, Play, MessageCircle, Star, Award, Users, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroBg from "src/assets/doctors-portrait.png";
-import doctorPortrait from "src/assets/doctor-vikas-kakkar.png";
 
 const trustBadges = [
   { icon: Award, label: "25+ Years Experience" },
@@ -17,7 +15,7 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src={heroBg}
+          src= "src\assets\hero-bg.jpg"
           alt=""
           className="w-full h-full object-cover"
           loading="eager"
@@ -104,7 +102,7 @@ export function Hero() {
             <div className="relative">
               <div className="w-full max-w-md mx-auto aspect-[4/5] rounded-3xl overflow-hidden shadow-elevated">
                 <img
-                  src={doctorPortrait}
+                  src='src\assets\doctors-portrait.png'
                   alt="Dr. Vikas Kakkar"
                   className="w-full h-full object-cover"
                 />
