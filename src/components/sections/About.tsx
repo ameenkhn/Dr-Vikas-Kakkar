@@ -36,7 +36,7 @@ export function About() {
                 <img
                   src="src\assets\doctors-portrait.png"
                   alt="Dr. Vikas Kakkar"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover"  
                 />
               </div>
 
