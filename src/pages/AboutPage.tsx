@@ -5,6 +5,7 @@ import { Award, GraduationCap, Users, Heart, Calendar, MapPin, Building, Trophy 
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { CTA } from "@/components/sections/CTA";
+import doctorsPortrait from "../assets/doctors-portrait.png";
 
 const achievements = [
   { year: "2023", title: "Excellence in Diabetic Foot Care Award", org: "Indian Podiatry Association" },
@@ -67,7 +68,7 @@ export default function AboutPage() {
               >
                 <div className="aspect-[4/5] max-w-md mx-auto rounded-3xl overflow-hidden shadow-elevated">
                   <img
-                    src="src\assets\doctors-portrait.png"
+                    src={doctorsPortrait}
                     alt="Dr. Vikas Kakkar"
                     className="w-full h-full object-cover"
                   />

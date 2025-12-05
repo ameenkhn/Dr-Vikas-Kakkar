@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Award, GraduationCap, Users, Heart, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import doctorsPortrait from "../assets/doctors-portrait.png";
 
 const stats = [
   { number: "25+", label: "Years Experience", icon: Award },
@@ -34,7 +35,7 @@ export function About() {
               <div className="absolute inset-4 bg-primary/10 rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden shadow-elevated">
                 <img
-                  src="src\assets\doctors-portrait.png"
+                  src={doctorsPortrait}
                   alt="Dr. Vikas Kakkar"
                   className="w-full h-full object-cover"  
                 />

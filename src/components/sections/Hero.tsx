@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Calendar, Play, MessageCircle, Star, Award, Users, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import herobackground from "../assets/hero-bg.jpg";
 
 const trustBadges = [
   { icon: Award, label: "25+ Years Experience" },
@@ -15,8 +16,8 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src= "src\assets\hero-bg.jpg"
-          alt=""
+          src={herobackground}
+          alt="herobackground"
           className="w-full h-full object-cover"
           loading="eager"
         />
