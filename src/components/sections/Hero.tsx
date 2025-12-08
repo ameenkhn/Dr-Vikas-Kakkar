@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Calendar, Play, MessageCircle, Star, Award, Users, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import herobackground from "../../assets/1.jpg";
+import herobackground from "../../assets/1.png";
 import doctorsPortrait from "../../assets/doctors-portrait1.png";
 
 const trustBadges = [

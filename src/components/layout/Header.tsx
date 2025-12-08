@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo1.png";
 
 const navItems = [
   { label: "Home", href: "/" },

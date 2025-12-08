@@ -5,7 +5,7 @@ import { Award, GraduationCap, Users, Heart, Calendar, MapPin, Building, Trophy 
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { CTA } from "@/components/sections/CTA";
-import doctorsPortrait from "../assets/doctors-portrait.png";
+import doctorsPortrait from "../assets/doctors-portrait1.png";
 
 
 const achievements = [
