@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Youtube, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import logo from "../../assets/logo1.png";
 
 const quickLinks = [
   { label: "About Us", href: "/about" },
@@ -36,9 +37,7 @@ export function Footer() {
           {/* Brand & Contact */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-xl">K</span>
-              </div>
+            <img src={logo} alt="Kakkar Clinic" className="w-8 h-8 object-contain" />
               <div>
                 <h3 className="font-display text-xl font-semibold">Kakkar Clinic</h3>
                 <p className="text-sm text-background/60">Dr. Vikas Kakkar</p>
