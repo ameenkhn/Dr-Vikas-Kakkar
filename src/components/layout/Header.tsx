@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logo from "../../assets/logo.png";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -53,8 +54,8 @@ export function Header() {
         <div className="container flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-lg">K</span>
+            <div className="w-10 h-10 rounded-full flex items-center justify-center">
+              <img src={logo}/>
             </div>
             <div className="hidden sm:block">
               <h1 className="font-display text-lg font-semibold text-foreground leading-tight">
