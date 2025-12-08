@@ -15,6 +15,34 @@ const faqCategories = [
         q: "What makes Kakkar Clinic different?",
         a: "Our clinic offers a comprehensive, multidisciplinary approach to diabetic foot care with 25+ years of specialized experience. We focus on limb salvage and prevention, using advanced diagnostic tools and surgical techniques to achieve the best outcomes.",
       },
+      {
+        q: "What types of foot and ankle conditions do you diagnose?",
+        a: "We evaluate a wide range of podiatric concerns including heel pain, plantar fasciitis, ingrown toenails, sports injuries, tendon disorders, arthritis-related pain, and structural deformities. Our approach focuses on accurate diagnosis and personalized treatment plans.",
+      },
+      {
+        q: "Do I need a referral to book an appointment?",
+        a: "No referral is required. You can schedule a consultation directly through our website or by calling our clinic. However, some insurance plans may require referrals—our team can guide you if needed.",
+      },
+      {
+        q: "What can I expect during my first visit?",
+        a: "Your initial visit includes a detailed medical history review, a physical examination, and any necessary diagnostic imaging. The doctor will then discuss your condition and recommend an appropriate treatment plan.",
+      },
+      {
+        q: "Does the clinic offer minimally invasive procedures?",
+        a: "Yes. We provide minimally invasive options for selected conditions such as bunions, hammertoes, nerve decompression, and certain wound treatments, allowing for faster recovery and reduced discomfort.",
+      },
+      {
+        q: "What payment methods do you accept?",
+        a: "The clinic accepts major debit/credit cards, UPI payments, medical insurance (where applicable), and digital wallets. Our team will assist you with billing and insurance claims for a smooth experience.",
+      },
+      {
+        q: "How soon can I get an appointment in case of an emergency?",
+        a: "For urgent issues such as severe pain, infections, or sudden injuries, we prioritize same-day or next-day appointments based on availability. If your condition is critical, please contact us immediately for guidance.",
+      },
+      {
+        q: "How does the clinic handle diabetic foot care?",
+        a: "We offer comprehensive diabetic foot assessments, ulcer prevention strategies, wound care, neuropathy evaluation, and long-term management plans to reduce the risk of complications and improve mobility.",
+      },
     ],
   },
   {
