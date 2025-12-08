@@ -1,6 +1,8 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Info } from "lucide-react";
+import before1 from "../../assets/before.jpg";
+import after1 from "../../assets/after.jpg";
 
 interface BeforeAfterSliderProps {
   before: string;
@@ -102,8 +104,8 @@ function BeforeAfterSlider({ before, after, caption }: BeforeAfterSliderProps) {
 const cases = [
   {
     id: 1,
-    before: "https://images.unsplash.com/photo-1559757175-7cb057fba93c?w=600&h=450&fit=crop&grayscale",
-    after: "https://images.unsplash.com/photo-1559757175-7cb057fba93c?w=600&h=450&fit=crop",
+    before: before1,
+    after: after1,
     caption: "Diabetic foot ulcer healing - 8 week treatment progression",
   },
   {
