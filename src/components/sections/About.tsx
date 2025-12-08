@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Award, GraduationCap, Users, Heart, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import doctorsPortrait from "../../assets/doctors-portrait.png";
+import doctorsPortrait from "../../assets/doctors-portrait1.png";
 
 const stats = [
   { number: "25+", label: "Years Experience", icon: Award },
