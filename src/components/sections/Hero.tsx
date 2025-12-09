@@ -16,12 +16,12 @@ export function Hero() {
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img
+        {/* <img
           src={herobackground}
           alt="herobackground"
           className="w-full h-full object-cover"
           loading="eager"
-        />
+        /> */}
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/95 via-foreground/80 to-foreground/60" />
       </div>
 
