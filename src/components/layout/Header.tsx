@@ -42,20 +42,18 @@ export function Header() {
       >
         Skip to content
       </a>
-      
+
       <header
         className={cn(
-          "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-          isScrolled
-            ? "bg-background/95 backdrop-blur-lg shadow-soft py-2"
-            : "bg-transparent py-4"
+          "fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white",
+          isScrolled ? "shadow-soft py-2" : "py-4"
         )}
       >
         <div className="container flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full flex items-center justify-center">
-              <img src={logo}/>
+              <img src={logo} />
             </div>
             <div className="hidden sm:block">
               <h1 className="font-display text-lg font-semibold text-foreground leading-tight">
@@ -106,7 +104,11 @@ export function Header() {
             aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
             aria-expanded={isMobileMenuOpen}
           >
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMobileMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
@@ -117,7 +119,7 @@ export function Header() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden bg-background border-t border-border"
+              className="lg:hidden bg-white border-t border-border"
             >
               <nav className="container py-4 flex flex-col gap-1">
                 {navItems.map((item) => (
